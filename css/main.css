@@ -1,0 +1,201 @@
+/* Спецификация */
+
+body {
+    font-family: 'PT Sans', sans-serif;
+
+}
+
+/* Первый экран */
+
+.header
+{
+    background: #FCDB00;
+    color: #010101;
+    padding-top: 60px;
+}
+
+ul,li{
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+.menu__item{
+    font-size: 22px;
+    margin: 0 60px;
+    font-weight: 700;
+}
+a{
+    color: #000;
+}
+.menu{
+    margin-top: 10px;
+}
+h1,h2,h3,h4,h5{
+    font-weight: 700;
+    color: #000;
+}
+h2{
+    text-align: center;
+}
+h3{
+    font-weight: 400;
+}
+p,div,a,span{
+    line-height: 1.3em;
+}
+.offer{
+    margin-top: 117px;
+}
+.offer__title{
+    font-size:32px;
+    margin-bottom: 6px;
+}
+.offer__intro  {
+    font-size: 20px;
+}
+.offer__text{
+    font-size: 16px;
+    margin-top: 15px;
+    color: #555555;
+    width: 400px;
+}
+.icons__item {
+    margin-right: 30px;
+}
+.icons__item a{
+    color:#000;
+    font-size: 42px;
+}
+.icons__item a:hover{
+    text-decoration: none;
+    color: #D46F2B;
+    transition: all 0.3s ease;
+}
+.iPad{
+    display: block;
+    margin: 60px auto 0; 
+    padding-bottom: 105px;
+}
+.title{
+    padding-top: 100px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+.title__main{
+    font-size: 32px;
+}
+.title__text{
+    font-size: 20px;
+    width: 780px;
+    margin: 0 auto;
+}
+.feature{
+    margin-bottom: 65px;
+}
+.feature i{
+    font-size: 50px;
+    margin-right: 37px;
+    color: #000;
+}
+.feature__text{
+    color: #889989;
+}
+.touch{
+    background: #010101;
+    color: #898989;
+}
+.yellow{
+    color: #fcdb00;
+}
+.form{
+    text-align: center;
+}
+.form__input{
+    background: #fff;
+    font-size: 16px;
+    font-family: "PT Sans";
+    border-radius: 5px;
+    width: 580px;
+    padding: 15px 0;
+    color: #898989;
+    font-weight: 400;
+    line-height: 20px;
+    height: 50px;
+    padding-left: 23px;
+    margin-right: 21px;
+    outline: none;
+}
+.form__btn{
+    font-family: "PT Sans";
+    width: 126px;
+    height: 50px;
+    border: 0;
+    background-color: #fcdb00;
+    color: #010101;
+    font-family: "PT Sans";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* Footer */
+.footer{
+    background: #000;
+    padding: 50px 0 94px; 
+}
+.credits{
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    width: 184px;
+    margin: 0 auto;
+}
+/* Media-access */
+
+@media screen and (max-width: 992px) {
+    .logo{
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .offer{
+        text-align: center;
+    }
+    .offer__text{   
+    margin: 20px auto;        
+    }
+    .icons{
+        justify-content: center;
+    }
+    .icons__item:nth-child(3){
+        margin-right: 0;
+    }
+    .form__input{
+        margin-right: 0px;
+        width: 100%;
+    }
+    .form__btn{
+        margin-top: 20px;
+        width: 100%;
+    }
+    .title__text{
+        width:auto;
+    }
+    .offer__text{
+        width:auto;
+    }
+  }
+  @media screen and (max-width: 576px) {
+    .iPad{
+        width:100%;
+    }
+    .menu{
+        flex-direction: column;
+    }
+    .menu__item{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+}
